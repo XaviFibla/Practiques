@@ -1,0 +1,15 @@
+{
+  "name": "practica-7",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build_prod": "html-minifier --collapse-whitespace src/index.html -o dist/index.html | uglifyjs -o src/js/bundle.js -- dist/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}

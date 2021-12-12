@@ -1,0 +1,17 @@
+{
+  "name": "practica-8",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "daw2"
+  ],
+  "author": "Xavi Fibla",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
